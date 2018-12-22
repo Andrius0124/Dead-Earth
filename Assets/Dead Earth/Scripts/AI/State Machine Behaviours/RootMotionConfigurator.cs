@@ -23,7 +23,9 @@ public class RootMotionConfigurator : AIStateMachineLink
 	{
 		// Request the enabling/disabling of root motion for this animation state 
 		if (_stateMachine)
+		{
 			_stateMachine.AddRootMotionRequest( _rootPosition, _rootRotation );
+		}
 	}
 
 	// --------------------------------------------------------

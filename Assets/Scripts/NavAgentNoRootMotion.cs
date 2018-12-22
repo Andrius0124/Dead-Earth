@@ -107,7 +107,7 @@ public class NavAgentNoRootMotion : MonoBehaviour
 		horizontal = Mathf.Clamp( horizontal * 2.32f, -2.32f, 2.32f );
 		float s = Vector3.Angle( transform.forward, _navAgent.steeringTarget - transform.position) ;
 		// If we have slowed down and the angle between forward vector and desired vector is greater than 10 degrees 
-		if ( _navAgent.desiredVelocity.magnitude< 3.0f  && Vector3.Angle( transform.forward, _navAgent.steeringTarget - transform.position) > 10.0f)
+		if ( _navAgent.desiredVelocity.magnitude< 1.0f  && Vector3.Angle( transform.forward, _navAgent.steeringTarget - transform.position) > 10.0f)
 		{
 			// Stop the nav agent (approx) and assign either -1 or +1 to turnOnSpot based on sign on horizontal
 			_navAgent.speed = 0.1f;

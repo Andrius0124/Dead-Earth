@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1056593718971352}
+  m_RootGameObject: {fileID: 1671534690278978}
   m_IsPrefabAsset: 1
---- !u!1 &1056593718971352
+--- !u!1 &1671534690278978
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4398561863067334}
-  - component: {fileID: 114064749592663178}
+  - component: {fileID: 4723089867439420}
+  - component: {fileID: 114276329094993370}
   m_Layer: 0
   m_Name: AIWaypoint Network
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4398561863067334
+--- !u!4 &4723089867439420
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1056593718971352}
+  m_GameObject: {fileID: 1671534690278978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.4359174, y: -5.329931, z: 15.536289}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114064749592663178
+--- !u!114 &114276329094993370
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1056593718971352}
+  m_GameObject: {fileID: 1671534690278978}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec0d84621a0ab7847a60ce212786733f, type: 3}

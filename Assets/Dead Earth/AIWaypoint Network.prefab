@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1056593718971352}
+  m_IsPrefabAsset: 1
+--- !u!1 &1056593718971352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4398561863067334}
+  - component: {fileID: 114215257917151816}
+  m_Layer: 0
+  m_Name: AIWaypoint Network
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4398561863067334
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1056593718971352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.4359174, y: -5.329931, z: 15.536289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114215257917151816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1056593718971352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea30724fab1ab4f47a5e6b07f55593cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayMode: 2
+  UIStart: 2
+  UIEnd: 3
+  Waypoints:
+  - {fileID: 4339260040141476, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
+  - {fileID: 4750726261407850, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
+  - {fileID: 4368281465091548, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
+  - {fileID: 4866146502255866, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
+  - {fileID: 4181354438303892, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
+  - {fileID: 4232725083304902, guid: 523bbf2f31b1b5b41977b26b1387947a, type: 2}
